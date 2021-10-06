@@ -129,4 +129,7 @@ dmypy.json
 .pyre/
 
 # Data files
-Data/images/
+data/images/
+
+# Folder property
+**/.DS_Store
