@@ -1,5 +1,5 @@
 import pickle
-from tensorflow.keras.preprocessing.image import load_img, img_to_array
+#from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
 def get_data_dictionary(mode):
 	"""
