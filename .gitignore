@@ -133,3 +133,5 @@ data/images/
 
 # Folder property
 **/.DS_Store
+
+**/.pkl

@@ -17,6 +17,14 @@ def get_data_dictionary(mode):
 	return pickle.load(open(path,"rb"))
 
 
+def get_image_paths(data_dict,mode):
+
+	img_paths = {}
+	for data in data_dict:
+		img_paths[data["img_id"]] = "data/images/"+mode+"/"+data["img_id"]+".jpg"
+	return img_paths
+
+
 def load_image_from_dictionary(data_dict, mode):
 	"""
 	Returns the dictionary of image arrays
